@@ -1,0 +1,886 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Inter:wght@100&family=Lekton&family=Poppins:ital,wght@0,500;1,500&family=Teko:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Cutive Mono', monospace;
+
+
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+/*menu de arriba*/
+.textoEnlace {
+  font-weight: 500;
+  font-size: 17px;
+  color: #000020;
+  margin-left: 10px;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.contenedormenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline-start: 0;
+  min-width: 450px;
+  align-self: center;
+  height: 100%;
+
+}
+
+nav {
+  width: 100%;
+  height: 55px;
+  background-color: #5DADE2;
+  border-bottom: 1px solid transparent;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+
+.logo p a {
+  display: flex;
+  text-decoration: none;
+  margin: 20px;
+  font-weight: 700;
+  font-size: 25px;
+
+}
+
+.enlaces a:hover {
+  border-bottom: #17202A solid;
+
+}
+
+
+/*letras de maquina*/
+
+span {
+  display: flex;
+  font-weight: 750;
+  font-size: 30px;
+  color: #00008B;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Cutive Mono', monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 25ch;
+  animation: typing 3.5s steps(25), blink .5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyFrames typing {
+
+  from {
+    width: 0
+  }
+}
+
+@keyFrames blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+
+.title__container {
+  margin: 64px 100px;
+}
+
+
+.title__container {
+  display: flex;
+  width: 450px;
+  height: 160px;
+  padding: 15px;
+  text-align: center;
+  align-items: center;
+}
+
+/*sobre mi*/
+
+.about-me {
+  margin: 64px 100px;
+}
+
+
+.textoMi {
+  width: 100%;
+}
+
+.sobre-mi {
+  font-weight: 700;
+  font-size: 32px;
+  color: black;
+  text-align: center;
+  padding: 50px;
+
+}
+
+.parrafo-sobremi {
+  display: flex;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 19px;
+  text-align: center;
+  color: #000020;
+}
+
+
+/*skills*/
+.skills {
+  margin: 64px 100px;
+
+}
+
+.skills__box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+
+}
+
+.skills__title {
+  font-weight: 700;
+  font-size: 32px;
+  color: black;
+  text-align: center;
+  padding: 50px;
+}
+
+.skills__img h3 {
+  font-weight: 700;
+  font-size: 13px;
+  align-items: center;
+  font-weight: bold;
+  color: #0000FF;
+  margin-top: 5px;
+
+}
+
+.skills__img {
+  width: 15%;
+  height: 150px;
+  background: #7FB3D5;
+  padding: 70px 16px 16px;
+  box-shadow: 0px 0px 5px 1px #464646;
+}
+
+.skills__img i {
+  font-size: 40px;
+  color: #0000FF;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+}
+
+/*hobby*/
+.hobbies {
+  margin: 64px 100px;
+}
+
+.hobbies__box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.hobbies__title {
+  font-weight: 700;
+  font-size: 32px;
+  color: black;
+  text-align: center;
+  padding: 50px;
+}
+
+.hobbies__img h3 {
+  font-weight: 700;
+  font-size: 16px;
+  align-items: center;
+  font-weight: bold;
+  color: #0000FF;
+  margin-top: 5px;
+}
+
+.hobbies__img {
+  width: 15%;
+  height: 150px;
+  background: #7FB3D5;
+  padding: 70px 16px 16px;
+  box-shadow: 0px 0px 5px 1px #464646;
+}
+
+.hobbies__img i {
+  display: flex;
+  font-size: 40px;
+  color: #0000FF;
+  width: 38px;
+  height: 38px;
+  align-items: center;
+  text-align: center;
+}
+
+/*formacion academica*/
+
+.academic {
+  margin: 64px 100px;
+}
+
+.caja-formacion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.academic__title {
+  font-weight: 700;
+  font-size: 32px;
+  color: black;
+  text-align: center;
+  margin-bottom: 25px;
+
+}
+
+.academic__courses__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 5px 1px #464646;
+  height: 200px;
+  margin-bottom: 10px;
+  ;
+}
+
+.academic__img {
+  width: 120px;
+}
+
+.formacion-icon {
+  width: 23.5%;
+}
+
+.formacionDescripcion {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #000020;
+  line-height: 25px;
+  text-align: center;
+}
+
+
+/*Proyectos*/
+.experiencia {
+  margin: 64px 100px;
+}
+
+.experience__section__title {
+  font-weight: 700;
+  font-size: 32px;
+  color: black;
+  text-align: center;
+  padding: 50px;
+
+}
+
+.encriptador {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.texEncrip {
+  width: 33%;
+}
+
+.texEncrip h3 {
+  margin-bottom: 8px;
+}
+
+.btn {
+  display: flex;
+}
+
+.btn a {
+  margin-top: 15px;
+}
+
+.experience__img {
+  box-shadow: 0px 0px 5px 1px #464646;
+  margin-left: 20px;
+}
+
+.contenidoEx img {
+  width: 55%;
+  height: 400px;
+}
+
+.contenidoEx h3 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #0000FF;
+}
+
+.contenidoEx p {
+  font-weight: 600;
+  font-size: 16px;
+  color: #000020;
+}
+
+.btn-repositorio {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  border: 2px solid black;
+  background-color: #5DADE2;
+  padding: 10px 20px;
+  margin: 1em;
+
+}
+
+/*contacto*/
+
+.form-group {
+  width: 50%;
+  margin: 0 auto;
+
+}
+
+.contactarme {
+  text-align: center;
+  padding: 25px;
+  font-size: 20px;
+
+}
+
+.contact-heading h2 {
+
+  padding: 15px;
+  color: black;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 32px;
+  text-align: center;
+
+}
+
+.contact-section {
+  padding: 3em;
+  background-color: #A9CCE3;
+}
+
+.container-contact {
+  margin: 0 auto;
+  margin-top: 5em;
+
+}
+
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin-top: 2em;
+
+}
+
+.form-group textarea {
+  height: 150px;
+  padding: 1.5em;
+  background: none;
+  border: 1px solid #008080;
+  color: black;
+
+}
+
+.form-group .input {
+  padding: 10px 20px;
+  margin-bottom: 1em;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #008080;
+  color: black;
+
+}
+
+.form-group .btn-submit {
+  font-family: 'Cutive Mono', monospace;
+  padding: 10px 20px;
+  margin: 1em;
+  color: black;
+  text-transform: uppercase;
+  background-color: #5DADE2;
+
+}
+
+/*pie de pagina*/
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  ;
+  height: 200px;
+  padding: 2em;
+  background-color: #5DADE2;
+}
+
+.footer-content h2 {
+  font-size: 3em;
+}
+
+.footer-content h5 {
+  font-size: 1.5em;
+  text-align: center;
+
+}
+
+.sotial-networks {
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  margin-top: 1em;
+
+}
+
+.sotial-networks i {
+  font-size: 1.5em;
+
+}
+
+
+/*Mobile*/
+
+
+@media screen and (max-width: 768px) {
+  .contenedormenu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .skills {
+    padding: 35px 0 10px 0;
+  }
+
+  .skills__title {
+    font-size: 22px;
+  }
+
+  .skills__img {
+    width: 47%;
+    height: 130px;
+    padding: 50px 16px 16px;
+    margin-bottom: 25px;
+
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .hobbies {
+    padding: 30px 0 10px 0;
+  }
+
+  .hobbies__title {
+    font-size: 22px;
+  }
+
+  .hobbies__img {
+    width: 47%;
+    height: 130px;
+    padding: 50px 16px 16px;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .academic {
+    padding: 35px 0 5px 0;
+  }
+
+  .academic__courses__box {
+    margin-bottom: 12px;
+  }
+
+  .academic__title {
+    font-size: 22px;
+  }
+
+  .formacion-icon {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .contenidoEx {
+    text-align: center;
+  }
+
+  .experience__section__title {
+    font-size: 22px;
+  }
+
+  .encriptador {
+    width: 100%;
+    flex-direction: column;
+  }
+
+
+  .contenidoEx img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .texEncrip {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .contenidoEx h3 {
+    font-size: 16px;
+  }
+
+  .contenidoEx p {
+    font-size: 14px;
+  }
+
+  .btn {
+    justify-content: center;
+  }
+
+  .btn-repositorio {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px;
+  }
+
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#slider-container {
+  max-height: 100vh;
+}
+
+#main-slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 200vw;
+  margin-top: 6rem;
+}
+
+#main-slider .slide {
+  height: auto;
+  width: 18rem;
+  transition: all 0.5s;
+  background-color: #fff;
+}
+
+.slide.card {
+  border-radius: 10px;
+}
+
+.slide .card-title {
+  font-size: 0.9rem;
+}
+
+.slide .card-body {
+  padding: 0.8rem;
+}
+
+.slide img {
+  border-radius: 10px 10px 0 0;
+  filter: grayscale(100%);
+  transition: all 1s;
+}
+
+.slide .card-body p {
+  font-size: 0.7rem;
+  margin-bottom: 0.5rem;
+  transition: all 1s;
+  opacity: 0;
+}
+
+.slide.active img {
+  filter: none;
+}
+
+.slide.active .card-body p {
+  opacity: 1;
+}
+
+#side-1 {
+  z-index: 99;
+  transform: translateX(100%) scale(1.5);
+}
+
+.slider-controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto 3rem auto;
+}
+
+.slider-btn {
+  border-radius: 50px;
+  height: 2rem;
+  width: 3rem;
+  border: 1px solid #6e6e6e;
+  font-size: 15px;
+  color: #6e6e6e;
+  text-align: center;
+  line-height: 30px;
+  padding-top: 0.1rem;
+  margin: 0.5rem;
+}
+
+.slider-btn:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #00accd;
+  border: none;
+}
+
+.slide-indicator-container {
+  margin: 6rem auto 1rem auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.slide-indicator {
+  border-radius: 50%;
+  height: 0.5rem;
+  width: 0.5rem;
+  margin: 0.2rem;
+  border: 1px solid #6e6e6e;
+}
+
+.slide-indicator:hover {
+  cursor: pointer;
+}
+
+.slide-indicator.active {
+  background-color: #00accd;
+  border-color: #00accd;
+}
+
+.btn-contact {
+  background-color: #fff;
+  border: 1px solid #b3b3b3;
+  border-radius: 50px;
+  color: #a5a5a5;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.6rem;
+  margin-bottom: 0.5rem;
+  transition: all 1s;
+}
+
+.slide.active .btn-contact {
+  background-color: #00accd;
+  color: #fff;
+  border: transparent;
+}
+
+.btn-contact:hover,
+.slide.active .btn-contact:hover {
+  text-decoration: none;
+  color: #000;
+  background-color: #95d7e4;
+  border: transparent;
+}
+
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item>div {
+    display: none;
+  }
+
+  .carousel-inner .carousel-item>div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.333%);
+  }
+
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.333%);
+  }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+  transform: translateX(0);
+}
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f2f5;
+  font-family: "Open Sans";
+  font-weight: 300;
+  padding: 10px 40px;
+}
+
+.inner-carousel h4 {
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+.card-carousel {
+  position: relative;
+  margin: 0 auto 0 auto;
+  padding: 0;
+  max-width: 220px;
+  max-width: 100%;
+  height: 250px;
+  perspective: 2000px;
+  perspective-origin: top;
+}
+
+.button-spin {
+  position: absolute;
+  top: 50%;
+  border: 0 none;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: "Open Sans";
+  font-weight: 800;
+  padding: 10px 16px;
+  text-shadow: 1px 1px 4px rgba(0, 54, 90, 0.5);
+}
+
+.card-carousel.button-spin:hover {
+  box-shadow: 0px 4px 4px 4px rgba(0, 54, 90, 0.15);
+}
+
+.card-carousel.button-spin:active {
+  box-shadow: none;
+}
+
+.button-spin.counterclockwise {
+  left: 0;
+}
+
+.button-spin.clockwise {
+  right: 0;
+}
+
+.inner-carousel {
+  position: relative;
+  width: 225px;
+  margin: 0 auto;
+  top: 80px;
+  transform-style: preserve-3d;
+  border: 1px solid blue;
+
+}
+
+.inner-carousel .fas {
+  color: #415e7e;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.front .fas {
+  color: #fff;
+
+}
+
+.inner-carousel>div {
+  position: absolute;
+  margin: 0 auto;
+  padding: 20px;
+  width: 220px;
+  height: 200px;
+  opacity: 1;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 0.5s ease-out;
+  z-index: 1;
+  box-shadow: 0px 10px 10px 10px rgba(0, 54, 90, 0.15);
+
+}
+
+.inner-carousel>div:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  opacity: 0.6;
+  background-color: #ddd;
+  z-index: 1;
+}
+
+.inner-carousel>div.counterclockwise:after,
+.inner-carousel>div.clockwise:after {
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.inner-carousel>div.front:after {
+  content: none;
+}
+
+.inner-carousel>div.front {
+  background-color: #415e7e;
+  color: #fff !important;
+}
