@@ -166,42 +166,39 @@
         <div id="slider-container">
         <div id="main-slider">
       <div id="side-1" class="slide card active">
-        <img class="card-img-top" src="{{ asset('img/') }}"/>
+      <a href=""><img class="card-img-top" src="{{ asset('img/Login.png') }}"/></a>
         <div class="card-body">
           <h5 id="title-lavado" class="card-title">DevChallenge2</h5>
         </div>
       </div>
-      <div id="side-2" class="slide card">
-        <img class="card-img-top" src="{{ asset('img/') }}"/>
+      <div id="side-2" class="slide card">    
+        <a href=""><img class="card-img-top" src="{{ asset('img/') }}"/></a>
         <div class="card-body">
           <h5 id="title-anticorrupcion" class="card-title">DevChallenge3</h5>
         </div>
       </div>
       <div id="side-3" class="slide card">
-        <img class="card-img-top" src="{{ asset('img/') }}" />
+        <a href=""><img class="card-img-top" src="{{ asset('img/') }}" /></a>
         <div class="card-body">
           <h5 id="title-sumariales" class="card-title">DevChallenge4</h5>
         </div>
       </div>
       <div id="side-4" class="slide card">
-        <img class="card-img-top" src="{{ asset('img/') }}" />
+        <a href=""><img class="card-img-top" src="{{ asset('img/') }}" /></a>
         <div class="card-body">
           <h5 id="title-adhoc" class="card-title">DevChallenge5</h5>
         </div>
       </div>
       <div id="side-5" class="slide card">
-        <img class="card-img-top" src="{{ asset('img/PlanGym.png') }}" />
+        <a href="https://github.com/Ayman-Kaddar/FINAL-FINAL-PLANGYM"><img class="card-img-top" src="{{ asset('img/PlanGym.png') }}"/></a>
         <div class="card-body">
           <h5 id="title-duediligence" class="card-title">PlanGym</h5>
-          <a class="btn btn-primary" href="https://github.com/Ayman-Kaddar/FINAL-FINAL-PLANGYM" role="button">Link</a>
         </div>
       </div>
       <div id="side-6" class="slide card">
-        <img class="card-img-top" src="{{ asset('img/Punch.png') }}"/>
+        <a href="https://github.com/Hecti1008/Punch_d_aventures/tree/main/Punch%20d'aventures"><img class="card-img-top" src="{{ asset('img/Punch.png') }}"/> </a>
         <div class="card-body">
-          <h5 id="title-duediligence" class="card-title">Punch d'aventura</h5>
-          <a class="btn btn-primary" href="https://github.com/Hecti1008/Punch_d_aventures/tree/main/Punch%20d'aventures" role="button">Link</a>
-
+          <h5 id="title-duediligence" class="card-title" >Punch d'aventura</h5>
         </div>
       </div>
 
