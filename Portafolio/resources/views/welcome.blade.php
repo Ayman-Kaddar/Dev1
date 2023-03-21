@@ -171,19 +171,19 @@
                             </div>
                         </div>
                         <div id="side-2" class="slide card">
-                            <a href=""><img class="card-img-top" src="{{ asset('img/') }}" /></a>
+                            <a href=""><img class="card-img-top" src="{{ asset('img/Todo.png') }}" /></a>
                             <div class="card-body">
                                 <h5 id="title-anticorrupcion" class="card-title">DevChallenge3</h5>
                             </div>
                         </div>
                         <div id="side-3" class="slide card">
-                            <a href=""><img class="card-img-top" src="{{ asset('img/') }}" /></a>
+                            <a href=""><img class="card-img-top" src="{{ asset('img/Tiempo.png') }}" /></a>
                             <div class="card-body">
                                 <h5 id="title-sumariales" class="card-title">DevChallenge4</h5>
                             </div>
                         </div>
                         <div id="side-4" class="slide card">
-                            <a href=""><img class="card-img-top" src="{{ asset('img/') }}" /></a>
+                            <a href=""><img class="card-img-top" src="{{ asset('img/Chat.png') }}" /></a>
                             <div class="card-body">
                                 <h5 id="title-adhoc" class="card-title">DevChallenge5</h5>
                             </div>
